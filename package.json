@@ -1,0 +1,25 @@
+{
+  "name": "typescript_basics",
+  "version": "1.0.1",
+  "description": "typescript and webpack",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "awesome-typescript-loader": "^4.0.1",
+    "typescript": "^2.8.1",
+    "webpack": "^4.4.1",
+    "webpack-dev-server": "^3.1.1"
+  }
+}
