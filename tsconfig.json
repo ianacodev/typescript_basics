@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "target": "es5", // specify version of js to compile typescript to.
+    "module": "commonjs", // nodejs uses require which is commonjs.
+    "strict": true, // adds 'use strict' in each transplied js file.
+    "outDir": "dist",
+    "noImplicitThis": false
+  }
+}
