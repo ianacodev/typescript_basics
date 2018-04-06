@@ -4,11 +4,11 @@
 
 // object literals used inside of object.
 const car = {
-  name: "Volvo",
-  model: "S40"
+  name: 'Volvo',
+  model: 'S40'
 };
 
-const carColors = ["Red", "Green", "Blue"];
+const carColors = ['Red', 'Green', 'Blue'];
 
 const inventoryOld = {
   car: car,
@@ -26,17 +26,17 @@ const inventoryNew = {
   }
 };
 
-console.log("Inventory Old: ", inventoryOld);
-console.log("Inventory New: ", inventoryNew);
+console.log('Inventory Old: ', inventoryOld);
+console.log('Inventory New: ', inventoryNew);
 console.log(
-  "Inventory Match: ",
+  'Inventory Match: ',
   JSON.stringify(inventoryOld) === JSON.stringify(inventoryNew)
 );
-console.log("Inventory Car: ", inventoryNew.getCarName());
+console.log('Inventory Car: ', inventoryNew.getCarName());
 
 // return object literal in function.
 function getInventory(car: Object, carColors: Object) {
   return { car, carColors }; // returns an object literal.
 }
 
-console.log("Get Inventory: ", getInventory(car, carColors));
+console.log('Get Inventory: ', getInventory(car, carColors));

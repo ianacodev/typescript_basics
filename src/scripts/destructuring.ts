@@ -4,8 +4,8 @@
  *****************************/
 // Object example
 const testCar = {
-  name: "Volvo",
-  colors: ["Red", "Green", "Blue"]
+  name: 'Volvo',
+  colors: ['Red', 'Green', 'Blue']
 };
 
 // rename destructured variable.
@@ -15,10 +15,10 @@ function getCar({ name: carName, colors: carColors }) {
 }
 
 const newCarObj = getCar(testCar);
-console.log("New Car Object: ", newCarObj);
+console.log('New Car Object: ', newCarObj);
 
 // Array example.
-const months = ["January", "February", "March", "April", "May"];
+const months = ['January', 'February', 'March', 'April', 'May'];
 const [m0, m1, m2] = months;
 console.log(`
     Months From Variable:
