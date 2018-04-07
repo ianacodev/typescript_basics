@@ -1,1 +1,1 @@
-console.log('Hello Typescript');
+// app.ts
