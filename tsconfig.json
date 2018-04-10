@@ -5,6 +5,7 @@
     "strict": true, // adds 'use strict' in each transplied js file.
     "outDir": "dist",
     "noImplicitThis": false,
-    "noImplicitAny": false
+    "noImplicitAny": false,
+    "lib": ["dom", "es2017"]
   }
 }
