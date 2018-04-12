@@ -31,7 +31,7 @@ sizes.availableSizes = ['medium', 'large'];
 console.log('Available Sizes: ', sizes.availableSizes);
 */
 
-interface PackageInterface extends SizesInterface {
+interface PackageInterface extends SizeInterface {
   readonly name: string;
   shipping: string[];
   updateSizes(sizes: string[]): void;
