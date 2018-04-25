@@ -6,6 +6,8 @@
     "outDir": "dist",
     "noImplicitThis": false,
     "noImplicitAny": false,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
     "lib": ["dom", "es2017"]
   }
 }
